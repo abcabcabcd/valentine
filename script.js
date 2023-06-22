@@ -22,4 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', fadeInImages);
   window.addEventListener('resize', fadeInImages);
 
-  // Call it
+  // Call it initially to show images that are already in the viewport
+  fadeInImages();
+});
