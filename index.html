@@ -1,1 +1,22 @@
-woah
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @keyframes moving-text {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(100%); }
+    }
+
+    .cool-text {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: moving-text 5s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="cool-text">
+    This is some cool moving text!
+  </div>
+</body>
+</html>
