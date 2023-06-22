@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  /* Navigation styles */
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: red;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.hero-content {
+  /* Styles for hero content */
+}
+
+.cta-button {
+  /* Styles for call-to-action button */
+}
+
+/* Services Section Styles */
+#services {
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.services-content {
+  /* Styles for services content */
+}
+
+/* Social Media Section Styles */
+#social-media {
+  background-color: black;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.social-media-content {
+  /* Styles for social media content */
+}
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
